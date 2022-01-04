@@ -1,0 +1,11 @@
+Reference, Quantity, Value, Footprint, Datasheet
+C1 ,1,"1uF","Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder","~"
+C2 ,1,"0.1uF","Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~"
+C3 ,1,"0.01uF","Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~"
+C4 C5 ,2,"0.33uF","Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder","~"
+J1 ,1,"68000 Socket","Package_DIP:DIP-64_W22.86mm_LongPads","~"
+J2 ,1,"Relocated 68000 Socket","Package_DIP:DIP-64_W22.86mm_Socket","~"
+JP15 ,1,"Jumper_3_Bridged12","Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical","~"
+R1 ,1,"1K","Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder","~"
+U1 ,1,"27C400","Package_DIP:DIP-40_W15.24mm_Socket",""
+U2 ,1,"74HCT138","Package_SO:SOIC-16_3.9x9.9mm_P1.27mm",""
