@@ -24,7 +24,7 @@ here](CDTV_Reromlocator/gerbers_v3.zip).
 
 ## Photos
 
-![bare relocator]('photos/bare relocator.jpg')
+![bare relocator](photos/bare_relocator.jpg)
 
 This is the bare relocator with an empty 68000 socket.  Installing the original
 68000 will still work and the case can still be closed.
@@ -37,38 +37,38 @@ relocator but please do this at your own risk!
 
 Here we have an installed TF536 and CDTV OS 2.35 on a single 27C400.
 
-![case closed](photos/case closed.jpg)
+![case closed](photos/case_closed.jpg)
 
 Case closed!  The tallest component is the ROM, which still has a mm or two
 before it touches the case.
 
-![tf526 top](photos/tf536 top.jpg)
+![tf526 top](photos/tf536_top.jpg)
 
 We'll need an accelerator.  I like the TF536 with the [firmware from
 here](https://www.exxoshost.co.uk/forum/viewtopic.php?f=76&t=3542&sid=06fe9e624b3ed6e35e5968cf34cc0226&start=30#p70123)
 which disables the flashy boot rom on the TF536 (that is in the same address
 space as the extended ROM).
 
-![tf536 cpu trim](photos/'f536 cpu trim.jpg)
+![tf536 cpu trim](photos/tf536_cpu_trim.jpg)
 
 You will want to solder down and trim the legs of your CPU.  In hindsight I
 would raise the CPU of the board by a few mm and just solder the leads short.
 There is enough height left for the CPU to sit a little proud but please do
 test fit before soldering.
 
-![relocator pins](photos/relocator pins.jpg)
+![relocator pins](photos/relocator_pins.jpg)
 
 I used regular pin strips between the relocator board and the TF536.  The
 plastic at the bottom is the height I chose as a safe distance between the two
 PCBs.
 
-![accelerator sandwich](photos/accelerator sandwich.jpg)
+![accelerator sandwich](photos/accelerator_sandwich.jpg)
 
 Here they are just before soldering together.  Check there is nothing that will
 short.  I used a bit of cardboard to keep everything spaced nicely and as a bit
 of extra protection in case the boards got smooshed by the case.
 
-![height check](photos/height check.jpg)
+![height check](photos/height_check.jpg)
 
 Testing installed height.  In my case the ROM is the tallest component.  You
 could try and find a lower profile DIP socket for the ROM.
