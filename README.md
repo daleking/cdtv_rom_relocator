@@ -1,5 +1,4 @@
-# cdtv_rom_relocator
-Extended ROM and CPU Relocator for CDTV (2x 27C1000 > 1x 27C400)
+# CDTV Extended ROM and CPU Relocator
 
 I wanted to use a single 27C400 for the extended ROM in my CDTV because 2x
 27C1000's are a pain.  A single socket for the rom also makes debugging easier
@@ -48,6 +47,9 @@ We'll need an accelerator.  I like the TF536 with the [firmware from
 here](https://www.exxoshost.co.uk/forum/viewtopic.php?f=76&t=3542&sid=06fe9e624b3ed6e35e5968cf34cc0226&start=30#p70123)
 which disables the flashy boot rom on the TF536 (that is in the same address
 space as the extended ROM).
+
+You will also want a right angled IDE header, not a straight one.  This means
+the cable connector is nice and flat.
 
 ![tf536 cpu trim](photos/tf536_cpu_trim.jpg)
 
